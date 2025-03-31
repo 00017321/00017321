@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title My Unique Blog
+    link(rel="stylesheet", href="/static/index.css")
+    link(rel="preconnect", href="https://fonts.googleapis.com")
+    link(rel="preconnect", href="https://fonts.gstatic.com" crossorigin)
+    link(href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap", rel="stylesheet")
+  body
+    header.site-header
+      h1 
+        a(href='/') My Unique Blog
+      nav.site-nav
+        a(href='/blogs') Latest Posts
+        a(href='/create') New Post
+    main
+      block content
+    footer.site-footer
+      p Site created for academic purposes.

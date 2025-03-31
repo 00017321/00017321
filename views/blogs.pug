@@ -1,0 +1,10 @@
+extends layout.pug 
+
+block content
+  section.blog-list
+    h2 Latest Posts
+    each blog in blogs
+      article.post
+        h3 
+          a(href=`/blogs/${blog.id}`) #{blog.title}
+        a.remove(href=`/${blog.id}/delete`) Remove Post
