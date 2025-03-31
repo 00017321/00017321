@@ -1,4 +1,4 @@
-# My Unique Blog
+# My Blog
 
 My Unique Blog is a simple web application that allows users to share their thoughts and stories through blog posts. Built with Express.js and Pug, the app demonstrates basic CRUD functionality (with create, read, and delete currently implemented) and features a modern, custom-designed user interface.
 
@@ -13,7 +13,7 @@ _Note: You can extend the app by adding update functionality to edit existing po
 
 ## Project Structure
 
-/my-unique-blog
+/my-blog
 ├── app.js # Main application file (Express server)
 ├── package.json # Project configuration and dependencies
 ├── /public # Static assets
@@ -42,13 +42,13 @@ _Note: You can extend the app by adding update functionality to edit existing po
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/my-unique-blog.git
+   git clone https://github.com/00017321/00017321.git
    ```
 
 2. **Navigate to the project folder:**
 
    ```bash
-   cd my-unique-blog
+   cd WT_CW2_17321node
    ```
 
 3. **Install the dependencies:**
